@@ -1,0 +1,31 @@
+body {
+    background-image: url("static/eggs2.jpg");
+    background-size: 1500px;
+    background-repeat:no-repeat;
+}
+
+div {
+    background: rgba(197, 197, 197, .7);
+    border-radius: 10px;
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+#top{
+    width: 1200px;
+    height: 50px;
+    margin-bottom: 20px;
+    background: rgba(214, 149, 79, .7);
+}
+
+#intro {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#date {
+    margin-top: 20px;
+    height: 200px;
+}

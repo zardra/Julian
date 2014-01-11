@@ -39,4 +39,15 @@ def convert_to_julian(todays_date):
 
 def todays_julian_date():
     todays_date = get_todays_date()
-    return convert_to_julian(todays_date)
+    julian_date = convert_to_julian(todays_date)
+
+    # turn into a three-digit number
+    julian_date = str(julian_date)
+    if len(julian_date)  == 1:
+        julian_date = "00" + julian_date
+    elif len(julian_date) == 2:
+        julian_date = "0" + julian_date
+
+    return julian_date
+
+todays_julian_date()
