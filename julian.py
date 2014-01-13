@@ -49,5 +49,3 @@ def todays_julian_date():
         julian_date = "0" + julian_date
 
     return julian_date
-
-todays_julian_date()
