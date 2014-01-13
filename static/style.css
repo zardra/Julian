@@ -20,6 +20,14 @@ div {
     background: rgba(214, 149, 79, .7);
 }
 
+#bottom{
+    width: 790px;
+    height: 80px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgba(214, 149, 79, .8);
+}
+
 #intro {
     margin-bottom: 20px;
     padding: 20px;
@@ -29,6 +37,7 @@ div {
 
 #date {
     margin-top: 20px;
+    margin-bottom: 20px;
     height: 200px;
     padding: 10px;
 }
