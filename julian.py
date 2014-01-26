@@ -1,8 +1,9 @@
 import datetime
+from dateutil.tz import tzlocal
 
 def get_todays_date():
-    # get today's date
-    now = datetime.datetime.now()
+    # get today's date in local timezone
+    now = datetime.datetime.now(tzlocal())
     # parse out the date
     month = now.month
     day = now.day
