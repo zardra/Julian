@@ -1,7 +1,8 @@
 body {
-    background-image: url("Brown-eggs.jpg");
-    background-size: 1500px;
+    background-image: url("1024px-Brown-eggs.jpg");
+    background-size: 1350px;
     background-repeat:no-repeat;
+    background-position: center;
 }
 
 div {
@@ -14,7 +15,7 @@ div {
 }
 
 #top{
-    width: 1200px;
+    width: auto;
     height: 50px;
     margin-bottom: 20px;
     background: rgba(214, 149, 79, .7);
