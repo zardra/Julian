@@ -1,2 +1,3 @@
 venv
-*.pyc
+view.pyc
+julian.pyc
