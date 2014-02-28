@@ -10,7 +10,7 @@ def get_todays_date():
     # parse out the date
     month = now.month
     day = now.day
-    year = now.day
+    year = now.year
     # put year, month, and day into a list to pass on
     todays_date = [year, month, day]
     return todays_date
